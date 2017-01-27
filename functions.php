@@ -123,6 +123,11 @@ add_action( 'wp_enqueue_scripts', 'bootstrapfast_scripts' );
 require get_template_directory() . '/inc/custom-header.php';
 
 /**
+ * Load functions to secure your WP install.
+ */
+require get_template_directory() . '/inc/security.php';
+
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
