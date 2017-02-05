@@ -336,7 +336,7 @@ hr {
 }
 
 ul, ol {
-  margin: 0 0 1.5em 3em;
+  margin: 0 0 1.5em 0em;
 }
 
 ul {
@@ -536,11 +536,14 @@ a:hover, a:active {
 .main-navigation li {
   float: left;
   position: relative;
+  display: block;
+  width: 100%;
 }
 
 .main-navigation a {
   display: block;
   text-decoration: none;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 /* Small menu. */
@@ -8991,4 +8994,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important;
   }
+}
+
+.leftbar {
+	background: #ececec;
 }

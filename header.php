@@ -22,11 +22,10 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bootstrapfast' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 leftbar">
+				<header id="masthead" class="site-header" role="banner">
 					<div class="site-branding">
 						<?php
 						if ( is_front_page() && is_home() ) : ?>
@@ -47,9 +46,8 @@
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bootstrapfast' ); ?></button>
 						<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav><!-- #site-navigation -->
-				</div>
+				</header><!-- #masthead -->
+				<?php get_sidebar(); ?>
 			</div>
-		</div>
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+			<div class="col-md-9">
+				<div id="content" class="site-content">
