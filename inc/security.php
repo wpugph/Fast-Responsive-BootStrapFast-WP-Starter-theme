@@ -14,6 +14,10 @@ function no_generator() {
 	return '';
 }
 
+if ( is_singular() ) {
+	wp_enqueue_script( 'comment-reply' );
+}
+
 add_filter( 'the_generator', 'no_generator' );
 
 /*
