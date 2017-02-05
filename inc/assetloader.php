@@ -22,7 +22,7 @@ add_action( 'wp_enqueue_scripts', 'bootstrapfast_head' );
  */
 function body_begin() {
 	do_action( 'body_begin' );
-}
+}Ó
 
 /**
  * Set of scripts and styles being loaded in the body.
