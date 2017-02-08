@@ -67,7 +67,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 			)
 		);
 
-		$wp_customize->add_setting( 'bootstrapfast_sidebar_position', array(
+		$wp_customize->add_setting( 'bootstrapfast_mainheader_position', array(
 			'default'           => 'right',
 			'type'              => 'theme_mod',
 			'sanitize_callback' => 'esc_textarea',
@@ -77,18 +77,17 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		$wp_customize->add_control(
 			new WP_Customize_Control(
 				$wp_customize,
-				'bootstrapfast_sidebar_position', array(
-					'label'       => __( 'Sidebar Positioning', 'bootstrapfast' ),
+				'bootstrapfast_mainheader_position', array(
+					'label'       => __( 'Main Header Positioning', 'bootstrapfast' ),
 					'description' => __( "Set sidebar's default position. Can either be: right, left, both or none. Note: this can be overridden on individual pages.",
 					'bootstrapfast' ),
 					'section'     => 'bootstrapfast_theme_layout_options',
-					'settings'    => 'bootstrapfast_sidebar_position',
+					'settings'    => 'bootstrapfast_mainheader_position',
 					'type'        => 'select',
 					'choices'     => array(
-						'right' => __( 'Right sidebar', 'bootstrapfast' ),
-						'left'  => __( 'Left sidebar', 'bootstrapfast' ),
-						'both'  => __( 'Left & Right sidebars', 'bootstrapfast' ),
-						'none'  => __( 'No sidebar', 'bootstrapfast' ),
+						'top' => __( 'Top', 'bootstrapfast' ),
+						'left'  => __( 'Left', 'bootstrapfast' ),
+						'right'  => __( 'Right', 'bootstrapfast' ),
 					),
 					'priority'    => '20',
 				)
