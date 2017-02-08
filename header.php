@@ -18,11 +18,11 @@
 
 <?php wp_head(); ?>
 </head>
-
+<?php $container = get_theme_mod( 'bootstrapfast_container_type' ); ?>
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bootstrapfast' ); ?></a>
-	<div class="container-fluid">
+	<div class="<?php echo esc_html( $container ); ?>">
 		<div class="row">
 			<div class="col-md-3 leftbar">
 				<header id="masthead" class="site-header" role="banner">
