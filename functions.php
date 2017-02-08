@@ -92,8 +92,8 @@ add_action( 'after_setup_theme', 'bootstrapfast_content_width', 0 );
  */
 function bootstrapfast_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'bootstrapfast' ),
-		'id'            => 'sidebar-1',
+		'name'          => esc_html__( 'Main Sidebar', 'bootstrapfast' ),
+		'id'            => 'main-sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'bootstrapfast' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
