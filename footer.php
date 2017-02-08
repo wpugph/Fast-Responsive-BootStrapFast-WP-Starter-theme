@@ -10,7 +10,6 @@
  */
 
 ?>
-				</div>
 			</div><!-- #contennt -->
 		</div><!-- .row -->
 	</div><!-- .container -->
