@@ -1,5 +1,13 @@
 <?php
+/**
+ * Additional custom theme functions.
+ *
+ * @package BootstrapFast
+ */
 
+/**
+ * Top overrides for the header area.
+ */
 function main_header_style() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'top' === $maincontainer ) {
@@ -11,6 +19,9 @@ function main_header_style() {
 	}
 }
 
+/**
+ * Body overrides.
+ */
 function main_body_style() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'top' === $maincontainer ) {
