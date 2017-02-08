@@ -19,7 +19,6 @@
 <?php wp_head(); ?>
 </head>
 <?php $container = get_theme_mod( 'bootstrapfast_container_type' ); ?>
-<?php echo main_header_style(); ?>
 <body <?php body_class(); ?>>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bootstrapfast' ); ?></a>
 	<div class="<?php echo esc_html( $container ); ?>">
