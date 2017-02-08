@@ -32,6 +32,3 @@ function main_body_style() {
 		return 'col-md-9 pull-md-3';
 	}
 }
-
-
-?>
