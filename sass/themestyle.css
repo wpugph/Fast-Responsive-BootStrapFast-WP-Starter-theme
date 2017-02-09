@@ -89,7 +89,7 @@ dfn {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0.67em 0;
 }
 
@@ -244,8 +244,8 @@ select,
 textarea {
   color: #404040;
   font-family: "Verdana", "Calibri", sans-serif;
-  font-size: 32px;
-  font-size: 2rem;
+  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 

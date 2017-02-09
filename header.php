@@ -18,10 +18,8 @@
 
 <?php wp_head(); ?>
 </head>
-<?php $container = get_theme_mod( 'bootstrapfast_container_type' ); ?>
 <body <?php body_class(); ?>>
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bootstrapfast' ); ?></a>
-	<div class="<?php echo esc_html( $container ); ?>">
+	<div class="<?php echo esc_attr( container_type() ); ?>">
 		<div class="row">
 			<header id="masthead" class="site-header <?php echo esc_attr( main_header_style() ) ?>" role="banner">
 				<div class="site-branding"><?php
