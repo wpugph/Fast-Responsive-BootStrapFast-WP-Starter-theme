@@ -43,7 +43,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		) );
 
 		$wp_customize->add_setting( 'bootstrapfast_container_type', array(
-			'default'           => 'container',
+			'default'           => 'container-fluid',
 			'type'              => 'theme_mod',
 			'sanitize_callback' => 'esc_textarea',
 			'capability'        => 'edit_theme_options',
@@ -68,7 +68,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		);
 
 		$wp_customize->add_setting( 'bootstrapfast_mainheader_position', array(
-			'default'           => 'right',
+			'default'           => 'top',
 			'type'              => 'theme_mod',
 			'sanitize_callback' => 'esc_textarea',
 			'capability'        => 'edit_theme_options',
@@ -79,7 +79,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 				$wp_customize,
 				'bootstrapfast_mainheader_position', array(
 					'label'       => __( 'Main Header Positioning', 'bootstrapfast' ),
-					'description' => __( "Set sidebar's default position. Can either be: right, left, both or none. Note: this can be overridden on individual pages.",
+					'description' => __( 'Main Sidebar can be from the top, left or right.',
 					'bootstrapfast' ),
 					'section'     => 'bootstrapfast_theme_layout_options',
 					'settings'    => 'bootstrapfast_mainheader_position',
