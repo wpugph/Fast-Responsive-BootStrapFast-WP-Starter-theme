@@ -68,7 +68,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		);
 
 		$wp_customize->add_setting( 'bootstrapfast_mainheader_position', array(
-			'default'           => 'top',
+			'default'           => 'left',
 			'type'              => 'theme_mod',
 			'sanitize_callback' => 'esc_textarea',
 			'capability'        => 'edit_theme_options',
@@ -85,9 +85,9 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 					'settings'    => 'bootstrapfast_mainheader_position',
 					'type'        => 'select',
 					'choices'     => array(
-						'top' => __( 'Top', 'bootstrapfast' ),
-						'left'  => __( 'Left', 'bootstrapfast' ),
-						'right'  => __( 'Right', 'bootstrapfast' ),
+						'left'	  => __( 'Left', 'bootstrapfast' ),
+						'right'   => __( 'Right', 'bootstrapfast' ),
+						'top' 	  => __( 'Top', 'bootstrapfast' ),
 					),
 					'priority'    => '20',
 				)
@@ -97,3 +97,57 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 }
 
 add_action( 'customize_register', 'bootstrapfast_theme_customize_register' );
+
+/**
+ * Top overrides for the header area.
+ */
+function main_header_style() {
+	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
+	if ( 'left' === $maincontainer ) {
+		return 'col-md-3';
+	} elseif ( 'right' === $maincontainer ) {
+		return 'col-md-3 push-md-9';
+	} else {
+		return 'col-md-12';
+	}
+}
+
+/**
+ * Body overrides.
+ */
+function main_body_style() {
+	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
+	if ( 'left' === $maincontainer ) {
+		return 'col-md-9';
+	} elseif ( 'right' === $maincontainer ) {
+		return 'col-md-9 pull-md-3';
+	} else {
+		return 'col-md-12';
+	}
+}
+
+/**
+ * Container is fluid or not overrides.
+ */
+function container_type() {
+	$container = get_theme_mod( 'bootstrapfast_container_type' );
+	if ( 'container' === $container ) {
+		return 'container';
+	} else {
+		return 'container-fluid';
+	}
+}
+
+/**
+ * Sidebar placement.
+ */
+function main_sidebar_placement() {
+	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
+	if ( 'left' === $maincontainer ) {
+		return true;
+	} elseif ( 'right' === $maincontainer ) {
+		return true;
+	} else {
+		return false;
+	}
+}
