@@ -14,7 +14,7 @@
 	if ( ! main_sidebar_placement() ) {
 			get_sidebar();
 	} ?>
-	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
+	<footer id="colophon" class="site-footer <?php echo esc_attr( container_type() ) ?>" role="contentinfo">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="site-info">
