@@ -20,8 +20,6 @@
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-
-
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
@@ -92,5 +90,4 @@
 # load all bootstrap
 # @import "bootstrap/bootstrap";
 --------------------------------------------------------------*/
-//@import "bootstrap/bootstrap";
-@import "bootstrap/bootstrap-grid";
+@import "bootstrap/bootstrap";

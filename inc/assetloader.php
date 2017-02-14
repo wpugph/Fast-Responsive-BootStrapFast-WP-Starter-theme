@@ -12,7 +12,7 @@ if ( ! function_exists( 'bootstrapfast_scripts' ) ) {
 	function bootstrapfast_head() {
 		// Get the theme data.
 		$the_theme = wp_get_theme();
-		wp_enqueue_style( 'bootstrapfast-style', get_stylesheet_directory_uri() . '/sass/themestyle.css', array(), $the_theme->get( 'Version' ) );
+		wp_enqueue_style( 'bootstrapfast-style', get_stylesheet_directory_uri() . '/sass/style.css', array(), $the_theme->get( 'Version' ) );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'bootstrapfast_head' );
