@@ -10,7 +10,10 @@
 ?>
 			</div><!-- #contennt -->
 		</div><!-- .row -->
-	</div><!-- .container -->
+	</div><!-- .container --> <?php
+	if ( ! main_sidebar_placement() ) {
+			get_sidebar();
+	} ?>
 	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
 		<div class="row">
 			<div class="col-md-12">
