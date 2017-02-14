@@ -45,6 +45,11 @@ figure {
 	padding-top: 1%;
 }
 
-header {
-	background: #efefef;
+header#masthead {
+	background-color: $color__main;
+}
+
+.sticky {
+	background-color: $color__main;
+	padding: 1%;
 }
