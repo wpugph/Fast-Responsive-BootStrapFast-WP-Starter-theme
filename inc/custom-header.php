@@ -7,6 +7,10 @@
  * @package BootstrapFast
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit( 'restricted access' );
+}
+
 /**
  * Set up the WordPress core custom header feature.
  *

@@ -7,6 +7,10 @@
  * @package BootstrapFast
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit( 'restricted access' );
+}
+
 /**
  * Adds custom classes to the array of body classes.
  *

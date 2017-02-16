@@ -5,33 +5,60 @@
  * @package BootstrapFast
  */
 
-if ( ! function_exists( 'bootstrapfast_scripts' ) ) {
-	/**
-	 * Load theme's sources.
-	 */
-	function bootstrapfast_head() {
-		// Get the theme data.
-		$the_theme = wp_get_theme();
-		wp_enqueue_style( 'bootstrapfast-style', get_stylesheet_directory_uri() . '/sass/themestyle.css', array(), $the_theme->get( 'Version' ) );
-	}
+if ( ! defined( 'ABSPATH' ) ) {
+	exit( 'restricted access' );
 }
-add_action( 'wp_enqueue_scripts', 'bootstrapfast_head' );
 
 /**
- * Action to insert hook boder the body.
+ * OOP load directory.
  */
-function body_begin() {
-	do_action( 'body_begin' );
+function asset_dir() {
+	return get_template_directory_uri() . '/assets';
 }
+
+/**
+ * Cache buster.
+ */
+function stylesuffix() {
+	$the_theme = wp_get_theme();
+	return $the_theme->get( 'Version' );
+}
+
+if ( ! function_exists( 'bootstrapfast_asset_head' ) ) {
+
+
+
+	/**
+	 * Scripts and assets that needed to load in the header.
+	 * JQuery, etc.
+	 */
+	function bootstrapfast_asset_head() {
+		wp_enqueue_script( 'jquery' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'bootstrapfast_asset_head' );
 
 /**
  * Set of scripts and styles being loaded in the body.
  */
-function bootstrapfast_body() {
+function bootstrapfast_footer() {
 		$the_theme = wp_get_theme();
-		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'tether', get_template_directory_uri() . '/js/tether.min.js', array(), $the_theme->get( 'Version' ), true );
-		wp_enqueue_script( 'bootstrapfast-nav', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), $the_theme->get( 'Version' ), true );
-		wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'tether' ), $the_theme->get( 'Version' ), true );
+
+		wp_enqueue_style( 'bootstrapfast-style', asset_dir() . '/css/themestyle.css', array(), stylesuffix() );
+
+		wp_enqueue_script( 'tether', asset_dir() . '/js/tether.min.js', array(), $the_theme->get( 'Version' ), true );
+
+		wp_enqueue_script( 'bootstrapfast-nav', asset_dir() . '/js/navigation.js', array( 'jquery' ), stylesuffix(), true );
+
+		wp_enqueue_script( 'bootstrap-js', asset_dir() . '/js/bootstrap.min.js', array( 'tether' ), stylesuffix(), true );
+
 }
-add_action( 'wp_enqueue_scripts', 'bootstrapfast_body' );
+add_action( 'wp_footer', 'bootstrapfast_footer' );
+
+/**
+ * Action to insert hook before the body.
+ * You still need to insert this hook inside your body.
+ */
+function body_begin() {
+	do_action( 'body_begin' );
+}

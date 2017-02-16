@@ -5,6 +5,10 @@
  * @package BootstrapFast
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit( 'restricted access' );
+}
+
 /**
  * Setup custom logo.
  */

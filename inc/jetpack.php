@@ -7,6 +7,11 @@
  * @package BootstrapFast
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit( 'restricted access' );
+}
+
+
 /**
  * Jetpack setup function.
  *
