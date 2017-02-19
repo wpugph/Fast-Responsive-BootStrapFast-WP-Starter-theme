@@ -125,9 +125,20 @@
 	.left-head {
 		#site-navigation ul > li {
 			width: 94%;
-			border-bottom: 1px solid;
+			border-bottom: 1px solid #dedede;
 		}
 		#site-navigation ul > li:last-child {
+			border-bottom: none;
+		}
+
+		#site-navigation .children {
+			background: $gray-lighter;
+		}
+		#site-navigation .children li {
+			border-bottom: none;
+		}
+
+		#site-navigation .page_item_has_children {
 			border-bottom: none;
 		}
 	}
