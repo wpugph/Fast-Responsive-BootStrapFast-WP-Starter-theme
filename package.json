@@ -1,5 +1,5 @@
 {
-  "name": "brunch-wordpress-theme",
+  "name": "wp-theme-bootstrapfast",
   "repository": {
     "type": "git",
     "url": ""
@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "assetsmanager-brunch": "^1.8.1",
-    "auto-reload-brunch": "latest",
     "clean-css-brunch": "latest",
     "css-brunch": "latest",
     "javascript-brunch": "latest",
     "sass-brunch": "latest",
-    "uglify-js-brunch": "latest"
+    "uglify-js-brunch": "latest",
+	"browser-sync-brunch": "latest"
   },
   "devDependencies": {}
 }

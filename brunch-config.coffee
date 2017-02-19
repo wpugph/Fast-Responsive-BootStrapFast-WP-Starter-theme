@@ -16,17 +16,21 @@ exports.config =
         'admin/js/customizer.js': /^(app[\\/]admin[\\/]js)/
         'js/themes.js':[
            /^(app[\\/]scripts)/
-           /^(bower_components[\\/]jquery[\\/]dist[\\/]jquery.js)/
-        ]
+#           /^(bower_components[\\/]tether[\\/]dist[\\/]js[\\/]tether.js)/
+#           /^(bower_components[\\/]bootstrap[\\/]dist[\\/]js[\\/]bootstrap.js)/
 
+        ]
     stylesheets:
       joinTo:
         'css/themestyle.css':[
            /^(app[\\/]scss[\\/]styles)/
+#           /^(bower_components[\\/]bootstrap[\\/]scss[\\/]bootstrap-grid.scss)/
+#           /^(bower_components[\\/]bootstrap[\\/]scss[\\/]bootstrap-reboot.scss)/
+#           /^(bower_components[\\/]bootstrap[\\/]scss[\\/]bootstrap.scss)/
         ]
-        'css/app-rtl.css': [
+        'css/themestyle-rtl.css': [
           /^(app[\\/]scss[\\/]styles-rtl)/
-          /(bower_components[\\/]bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)/
+          /^(bower_components[\\/]bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)/
         ]
         'css/editor.css':[
            /^(app[\\/]scss[\\/]editor(?!-rtl))/
@@ -48,10 +52,19 @@ exports.config =
     sass:
       debug: 'comments' # or set to 'debug' for the FireSass-style output
       mode: 'native' # set to 'ruby' to force ruby
+      sourceMapEmbed: true
       allowCache: true
       options:
         includePaths: ['bower_components']
-
+    browserSync:
+      port: 3000
+      logLevel: 'debug'
+      proxy: 'http://localhost/themes/bootgit/'
+      files: [
+        '*.php'
+        'template-parts/*.php'
+        'inc/*.php'
+      ]
 	# define the external fonts that will be copied from the fonts manager
 	# 'destination' : ['source']
 	# 'fonts': ['bower_components/bootstrap-sass-official/assets/fonts/bootstrap*']
