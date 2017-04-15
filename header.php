@@ -19,14 +19,12 @@
 <body <?php body_class(); ?>>
 	<div class="<?php echo esc_attr( container_type() ); ?>">
 		<div class="row">
-			<header id="masthead" class="site-header <?php echo esc_attr( main_header_style() ) ?>" role="banner">
+			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( main_header_style() ) ?>" role="banner">
 				<div class="site-branding"><?php
-				if ( get_header_image() ) { ?>
+				if ( get_the_logo_url() ) { ?>
 				    <div id="site-header">
-				        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				            <img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-				        </a>
-				    </div><?php
+						<?php the_custom_logo(); ?>
+					</div> <?php
 				} else {
 					if ( is_front_page() && is_home() ) { ?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1><?php
@@ -50,4 +48,4 @@
 				} ?>
 			</header><!-- #masthead -->
 
-			<div id="content" class="site-content <?php echo esc_attr( main_body_style() ) ?>">
+			<div id="content" class="site-content col-xs-12 <?php echo esc_attr( main_body_style() ) ?>">

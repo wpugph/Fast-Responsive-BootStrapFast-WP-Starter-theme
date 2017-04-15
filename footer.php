@@ -14,13 +14,13 @@
 	if ( ! main_sidebar_placement() ) {
 			get_sidebar();
 	} ?>
-	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
+	<footer id="colophon" class="site-footer <?php echo esc_attr( container_type() ) ?>" role="contentinfo">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="site-info">
 					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'bootstrapfast' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'bootstrapfast' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrapfast' ), 'bootstrapfast', '<a href="#" rel="designer">Carl Alberto</a>' ); ?>
+					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrapfast' ), 'bootstrapfast', '<a href="https://carl.alber2.com" rel="designer">Carl Alberto</a>' ); ?>
 				</div><!-- .site-info -->
 			</div>
 		</div>
