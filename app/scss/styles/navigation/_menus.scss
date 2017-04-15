@@ -132,7 +132,8 @@
 		}
 
 		#site-navigation .children {
-			background: $gray-lighter;
+			// background: $gray-lighter;
+			background: none;
 		}
 		#site-navigation .children li {
 			border-bottom: none;
