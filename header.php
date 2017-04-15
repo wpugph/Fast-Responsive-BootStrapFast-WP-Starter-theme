@@ -19,7 +19,7 @@
 <body <?php body_class(); ?>>
 	<div class="<?php echo esc_attr( container_type() ); ?>">
 		<div class="row">
-			<header id="masthead" class="site-header <?php echo esc_attr( main_header_style() ) ?>" role="banner">
+			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( main_header_style() ) ?>" role="banner">
 				<div class="site-branding"><?php
 				if ( get_the_logo_url() ) { ?>
 				    <div id="site-header">
@@ -48,4 +48,4 @@
 				} ?>
 			</header><!-- #masthead -->
 
-			<div id="content" class="site-content <?php echo esc_attr( main_body_style() ) ?>">
+			<div id="content" class="site-content col-xs-12 <?php echo esc_attr( main_body_style() ) ?>">

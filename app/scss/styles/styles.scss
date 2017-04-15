@@ -1,9 +1,18 @@
-//@import "bootstrap-compass";
-// Bootsrap style overrides
-@import "../_variables";
-
 // bootstrap grid only
 @import "bower_components/bootstrap/scss/bootstrap-grid";
+
+// @import "bower_components/bootstrap/scss/reboot";
+// @import "bower_components/bootstrap/scss/type";
+// @import "bower_components/bootstrap/scss/_images";
+// @import "bower_components/bootstrap/scss/_code";
+// @import "bower_components/bootstrap/scss/_tables";
+// @import "bower_components/bootstrap/scss/_forms";
+// @import "bower_components/bootstrap/scss/_buttons";
+
+//@import "bootstrap-compass";
+// Bootsrap style overrides
+@import "../_overrides";
+
 
 // @import "bower_components/bootstrap/scss/bootstrap-reboot";
 

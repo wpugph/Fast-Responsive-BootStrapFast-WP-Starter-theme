@@ -14,6 +14,7 @@ body {
 
 blockquote, q {
 	quotes: "" "";
+	background: #dedede;
 
 	&:before,
 	&:after {
@@ -47,6 +48,10 @@ figure {
 
 header#masthead {
 	background-color: $color__main;
+}
+
+.headercontainer img {
+	width: 100%;
 }
 
 .sticky {
