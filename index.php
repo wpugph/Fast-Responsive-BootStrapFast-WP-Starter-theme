@@ -12,6 +12,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+			<?php if ( get_header_image() ) { ?>
+				<div class="headercontainer">
+					<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
+				</div>
+			<?php } ?>
+
 		<?php
 		if ( have_posts() ) :
 
