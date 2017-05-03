@@ -67,6 +67,8 @@ if ( ! function_exists( 'bootstrapfast_setup' ) ) :
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
+
+		bootstrapfast_custom_header_setup();
 	}
 	endif;
 add_action( 'after_setup_theme', 'bootstrapfast_setup' );
@@ -81,9 +83,6 @@ add_action( 'after_setup_theme', 'bootstrapfast_setup' );
 function bootstrapfast_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'bootstrapfast_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'bootstrapfast_content_width', 0 );
-
-
 
 /**
  * Register widget area.

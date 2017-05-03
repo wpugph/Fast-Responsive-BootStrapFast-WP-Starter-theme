@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Setup custom logo.
  */
-function theme_prefix_setup() {
+function bootstrapfast_theme_prefix_setup() {
 	add_theme_support( 'custom-logo', array(
 		'height'      => 100,
 		'width'       => 400,
@@ -21,12 +21,12 @@ function theme_prefix_setup() {
 		'header-text' => array( 'site-title', 'site-description' ),
 	) );
 }
-add_action( 'after_setup_theme', 'theme_prefix_setup' );
+add_action( 'after_setup_theme', 'bootstrapfast_theme_prefix_setup' );
 
 /**
  * Check the logo if existing.
  */
-function get_the_logo_url() {
+function bootstrapfast_get_the_logo_url() {
 	$custom_logo_id = get_theme_mod( 'custom_logo' );
 	$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 	if ( $custom_logo_id ) {
