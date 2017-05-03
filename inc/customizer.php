@@ -104,11 +104,11 @@ add_action( 'customize_register', 'bootstrapfast_theme_customize_register' );
 function main_header_style() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'left' === $maincontainer ) {
-		return 'col-md-3';
+		return 'col-md-3 left-head';
 	} elseif ( 'right' === $maincontainer ) {
 		return 'col-md-3 push-md-9';
 	} else {
-		return 'col-md-12';
+		return 'col-md-12 top-position';
 	}
 }
 
