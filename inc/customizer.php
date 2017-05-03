@@ -45,7 +45,6 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		$wp_customize->add_setting( 'bootstrapfast_container_type', array(
 			'default'           => 'container-fluid',
 			'type'              => 'theme_mod',
-			'sanitize_callback' => 'esc_textarea',
 			'capability'        => 'edit_theme_options',
 		) );
 
@@ -70,7 +69,6 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 		$wp_customize->add_setting( 'bootstrapfast_mainheader_position', array(
 			'default'           => 'left',
 			'type'              => 'theme_mod',
-			'sanitize_callback' => 'esc_textarea',
 			'capability'        => 'edit_theme_options',
 		) );
 
@@ -85,9 +83,9 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 					'settings'    => 'bootstrapfast_mainheader_position',
 					'type'        => 'select',
 					'choices'     => array(
+						'top' 	  => __( 'Top', 'bootstrapfast' ),
 						'left'	  => __( 'Left', 'bootstrapfast' ),
 						'right'   => __( 'Right', 'bootstrapfast' ),
-						'top' 	  => __( 'Top', 'bootstrapfast' ),
 					),
 					'priority'    => '20',
 				)
@@ -101,7 +99,7 @@ add_action( 'customize_register', 'bootstrapfast_theme_customize_register' );
 /**
  * Top overrides for the header area.
  */
-function main_header_style() {
+function bootstrapfast_main_header_style() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'left' === $maincontainer ) {
 		return 'col-md-3 left-head';
@@ -115,7 +113,7 @@ function main_header_style() {
 /**
  * Body overrides.
  */
-function main_body_style() {
+function bootstrapfast_main_body_style() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'left' === $maincontainer ) {
 		return 'col-md-9';
@@ -129,7 +127,7 @@ function main_body_style() {
 /**
  * Container is fluid or not overrides.
  */
-function container_type() {
+function bootstrapfast_container_type() {
 	$container = get_theme_mod( 'bootstrapfast_container_type' );
 	if ( 'container' === $container ) {
 		return 'container';
@@ -141,7 +139,7 @@ function container_type() {
 /**
  * Sidebar placement.
  */
-function main_sidebar_placement() {
+function bootstrapfast_main_sidebar_placement() {
 	$maincontainer = get_theme_mod( 'bootstrapfast_mainheader_position' );
 	if ( 'left' === $maincontainer ) {
 		return true;

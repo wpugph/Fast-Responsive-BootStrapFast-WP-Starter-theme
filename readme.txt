@@ -5,7 +5,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 
 Requires at least: 4.0
 Tested up to: 4.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -14,8 +14,6 @@ Fast lightweight theme based from Underscores utilizing Bootstrap Responsive gri
 == Description ==
 
 This is a fast lightweight and minimalistic theme based from Underscores utilizing Bootstrap Responsive grid.
-
-For more information about this theme, please visit: https://carl.alber2.com/theme/bootstrapfast
 
 
 == Installation ==
@@ -32,7 +30,7 @@ BootstrapFast includes support for Infinite Scroll in Jetpack.
 
 = Does this theme support any BuddyPress and WooCommerce? =
 
-I should be but not fully tested, use at your own risk.
+It should be but not fully tested, use at your own risk.
 
 == Changelog ==
 
@@ -46,6 +44,15 @@ I should be but not fully tested, use at your own risk.
 * Added featured image support
 * Fixed sticky and blockquotes styles
 * Fixed footer link
+
+= 1.0.2 - May 4 2017 =
+* Added a dedicated theme page to reflect more information about the theme
+* Did the proper script and style enqueue instead of footer
+* Provided unique prefix for everything
+* Proper escaping in footer
+* Removed language folder because it is not yet utilized
+* correct sanitation for select
+* corrected multiple use of after_setup_theme
 
 == Copyright ==
 
