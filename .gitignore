@@ -5,3 +5,6 @@ bower_components/
 node_modules/
 public/
 *.log
+.ftpconfig
+.gitignore
+*.zip
