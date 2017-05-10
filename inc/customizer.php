@@ -46,6 +46,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 			'default'           => 'container-fluid',
 			'type'              => 'theme_mod',
 			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'bootstrapfast_container_type_sanitize',
 		) );
 
 		$wp_customize->add_control(
@@ -70,6 +71,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 			'default'           => 'left',
 			'type'              => 'theme_mod',
 			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'bootstrapfast_mainheader_position_sanitize',
 		) );
 
 		$wp_customize->add_control(
@@ -83,9 +85,9 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 					'settings'    => 'bootstrapfast_mainheader_position',
 					'type'        => 'select',
 					'choices'     => array(
-						'top' 	  => __( 'Top', 'bootstrapfast' ),
 						'left'	  => __( 'Left', 'bootstrapfast' ),
 						'right'   => __( 'Right', 'bootstrapfast' ),
+						'top' 	  => __( 'Top', 'bootstrapfast' ),
 					),
 					'priority'    => '20',
 				)
@@ -148,4 +150,24 @@ function bootstrapfast_main_sidebar_placement() {
 	} else {
 		return false;
 	}
+}
+
+/**
+ * Sanitize bootstrap container type.
+ */
+function bootstrapfast_container_type_sanitize( $containertype ) {
+    if ( ! in_array( $containertype, array( 'container-fluid', 'container' ) ) ) {
+        $containertype = 'container-fluid';
+    }
+    return $containertype;
+}
+
+/**
+ * Sanitize bootstrap header position.
+ */
+function bootstrapfast_mainheader_position_sanitize( $headerposition ) {
+    if ( ! in_array( $headerposition, array( 'left', 'right', 'top' ) ) ) {
+        $headerposition = 'left';
+    }
+    return $headerposition;
 }

@@ -69,6 +69,7 @@ if ( ! function_exists( 'bootstrapfast_setup' ) ) :
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
 		bootstrapfast_custom_header_setup();
+		bootstrapfast_theme_prefix_setup();
 	}
 	endif;
 add_action( 'after_setup_theme', 'bootstrapfast_setup' );
