@@ -1,8 +1,8 @@
+#This is intended for local deployment when using brunch to compile assets.
 #add_import_path "bower_components/bootstrap-sass-official/assets/stylesheets"
 #require 'compass/import-once/activate'
 #add_import_path "bower_components/bootstrap/dist/css"
 #require 'compass/import-once/activate'
-# Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
 http_path = "/Applications/XAMPP/xamppfiles/htdocs/themes/bootgit"
