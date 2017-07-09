@@ -27,7 +27,6 @@ function bootstrapfast_custom_header_setup() {
 		'wp-head-callback'       => 'bootstrapfast_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'bootstrapfast_custom_header_setup' );
 
 if ( ! function_exists( 'bootstrapfast_header_style' ) ) :
 /**
