@@ -29,22 +29,22 @@ function bootstrapfast_custom_header_setup() {
 }
 
 if ( ! function_exists( 'bootstrapfast_header_style' ) ) :
-/**
- * Styles the header image and text displayed on the blog.
- *
- * @see bootstrapfast_custom_header_setup().~
- */
-function bootstrapfast_header_style() {
+	/**
+	 * Styles the header image and text displayed on the blog.
+	 *
+	 * @see bootstrapfast_custom_header_setup().~
+	 */
+	function bootstrapfast_header_style() {
 
-$header_text_color = get_header_textcolor();
-	if ( get_theme_support( 'custom-header', 'default-text-color' ) === $header_text_color ) {
-		return;
-	}
+		$header_text_color = get_header_textcolor();
+		if ( get_theme_support( 'custom-header', 'default-text-color' ) === $header_text_color ) {
+			return;
+		}
 
-	// If we get this far, we have custom styles. Let's do this.
-	?>
-	<style type="text/css">
-	<?php
+		// If we get this far, we have custom styles. Let's do this.
+		?>
+		<style type="text/css">
+		<?php
 		// Has the text been hidden?
 		if ( ! display_header_text() ) :
 	?>
@@ -64,5 +64,5 @@ $header_text_color = get_header_textcolor();
 	<?php endif; ?>
 	</style>
 	<?php
-}
+	}
 endif;
