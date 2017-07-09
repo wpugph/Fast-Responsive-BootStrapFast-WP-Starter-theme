@@ -1,17 +1,18 @@
-https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme.svg?branch=master
+[![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme)
 
-Release branch
+
+# Release branch
 - Only the released files used for template file for Theme submission
 - Uncompressed assets
 - No readme file
 - No config files
 
-Develop branch
+# Develop branch
 - Raw files
 - Config files
 - For travis check
 
-Master branch
+# Master branch
 - Raw files
 - Config files
 - For travis check
