@@ -17,11 +17,11 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div class="<?php echo esc_attr( container_type() ); ?>">
+	<div class="<?php echo esc_attr( bootstrapfast_container_type() ); ?>">
 		<div class="row">
-			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( main_header_style() ) ?>" role="banner">
+			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( bootstrapfast_main_header_style() ) ?>" role="banner">
 				<div class="site-branding"><?php
-				if ( get_the_logo_url() ) { ?>
+				if ( bootstrapfast_get_the_logo_url() ) { ?>
 				    <div id="site-header">
 						<?php the_custom_logo(); ?>
 					</div> <?php
@@ -43,9 +43,9 @@
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bootstrapfast' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation --> <?php
-				if ( main_sidebar_placement() ) {
+				if ( bootstrapfast_main_sidebar_placement() ) {
 						get_sidebar();
 				} ?>
 			</header><!-- #masthead -->
 
-			<div id="content" class="site-content col-xs-12 <?php echo esc_attr( main_body_style() ) ?>">
+			<div id="content" class="site-content col-xs-12 <?php echo esc_attr( bootstrapfast_main_body_style() ) ?>">
