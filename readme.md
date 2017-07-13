@@ -20,3 +20,11 @@
 - You will start with this branch
 
 For customization, you need may need to start with a child theme and run brunch from there
+
+# Setting up you local environment
+
+Setup brunch
+
+# Theme Usage
+
+# Customizing further using a child theme
