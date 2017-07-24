@@ -21,6 +21,7 @@ function bootstrapfast_theme_prefix_setup() {
 		'header-text' => array( 'site-title', 'site-description' ),
 	) );
 }
+add_action( 'after_setup_theme', 'bootstrapfast_theme_prefix_setup' );
 
 /**
  * Check the logo if existing.
