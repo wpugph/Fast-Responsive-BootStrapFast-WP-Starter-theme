@@ -1,0 +1,1947 @@
+@-ms-viewport {
+  width: device-width; }
+
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/bootstrap-grid.scss */
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar; }
+
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/bootstrap-grid.scss */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 768px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 992px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 1200px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 576px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      width: 540px;
+      max-width: 100%; } }
+  @media (min-width: 768px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      width: 720px;
+      max-width: 100%; } }
+  @media (min-width: 992px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      width: 960px;
+      max-width: 100%; } }
+  @media (min-width: 1200px) {
+    /* line 6, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container {
+      width: 1140px;
+      max-width: 100%; } }
+
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+.container-fluid {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    /* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 768px) {
+    /* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 992px) {
+    /* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 1200px) {
+    /* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+  @media (min-width: 576px) {
+    /* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .row {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 768px) {
+    /* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .row {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 992px) {
+    /* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .row {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 1200px) {
+    /* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+    .row {
+      margin-right: -15px;
+      margin-left: -15px; } }
+
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  /* line 38, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/_grid.scss */
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    /* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 768px) {
+    /* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 992px) {
+    /* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 1200px) {
+    /* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+/* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-auto {
+  flex: 0 0 auto;
+  width: auto; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-5 {
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-11 {
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%; }
+
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-0 {
+  right: auto; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-1 {
+  right: 8.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-2 {
+  right: 16.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-3 {
+  right: 25%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-4 {
+  right: 33.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-5 {
+  right: 41.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-6 {
+  right: 50%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-7 {
+  right: 58.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-8 {
+  right: 66.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-9 {
+  right: 75%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-10 {
+  right: 83.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-11 {
+  right: 91.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.pull-12 {
+  right: 100%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-0 {
+  left: auto; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-1 {
+  left: 8.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-2 {
+  left: 16.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-3 {
+  left: 25%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-4 {
+  left: 33.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-5 {
+  left: 41.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-6 {
+  left: 50%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-7 {
+  left: 58.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-8 {
+  left: 66.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-9 {
+  left: 75%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-10 {
+  left: 83.33333%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-11 {
+  left: 91.66667%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.push-12 {
+  left: 100%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-1 {
+  margin-left: 8.33333%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-2 {
+  margin-left: 16.66667%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-3 {
+  margin-left: 25%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-4 {
+  margin-left: 33.33333%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-5 {
+  margin-left: 41.66667%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-6 {
+  margin-left: 50%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-7 {
+  margin-left: 58.33333%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-8 {
+  margin-left: 66.66667%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-9 {
+  margin-left: 75%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-10 {
+  margin-left: 83.33333%; }
+
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+.offset-11 {
+  margin-left: 91.66667%; }
+
+@media (min-width: 576px) {
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-auto {
+    flex: 0 0 auto;
+    width: auto; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-0 {
+    right: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-1 {
+    right: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-2 {
+    right: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-3 {
+    right: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-4 {
+    right: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-5 {
+    right: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-6 {
+    right: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-7 {
+    right: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-8 {
+    right: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-9 {
+    right: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-10 {
+    right: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-11 {
+    right: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-sm-12 {
+    right: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-0 {
+    left: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-1 {
+    left: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-2 {
+    left: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-3 {
+    left: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-4 {
+    left: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-5 {
+    left: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-6 {
+    left: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-7 {
+    left: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-8 {
+    left: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-9 {
+    left: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-10 {
+    left: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-11 {
+    left: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-sm-12 {
+    left: 100%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-0 {
+    margin-left: 0%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-1 {
+    margin-left: 8.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-2 {
+    margin-left: 16.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-3 {
+    margin-left: 25%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-4 {
+    margin-left: 33.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-5 {
+    margin-left: 41.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-6 {
+    margin-left: 50%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-7 {
+    margin-left: 58.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-8 {
+    margin-left: 66.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-9 {
+    margin-left: 75%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-10 {
+    margin-left: 83.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-sm-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 768px) {
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-auto {
+    flex: 0 0 auto;
+    width: auto; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-0 {
+    right: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-1 {
+    right: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-2 {
+    right: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-3 {
+    right: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-4 {
+    right: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-5 {
+    right: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-6 {
+    right: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-7 {
+    right: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-8 {
+    right: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-9 {
+    right: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-10 {
+    right: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-11 {
+    right: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-md-12 {
+    right: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-0 {
+    left: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-1 {
+    left: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-2 {
+    left: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-3 {
+    left: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-4 {
+    left: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-5 {
+    left: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-6 {
+    left: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-7 {
+    left: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-8 {
+    left: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-9 {
+    left: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-10 {
+    left: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-11 {
+    left: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-md-12 {
+    left: 100%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-0 {
+    margin-left: 0%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-1 {
+    margin-left: 8.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-2 {
+    margin-left: 16.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-3 {
+    margin-left: 25%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-4 {
+    margin-left: 33.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-5 {
+    margin-left: 41.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-6 {
+    margin-left: 50%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-7 {
+    margin-left: 58.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-8 {
+    margin-left: 66.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-9 {
+    margin-left: 75%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-10 {
+    margin-left: 83.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-md-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 992px) {
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-auto {
+    flex: 0 0 auto;
+    width: auto; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-0 {
+    right: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-1 {
+    right: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-2 {
+    right: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-3 {
+    right: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-4 {
+    right: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-5 {
+    right: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-6 {
+    right: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-7 {
+    right: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-8 {
+    right: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-9 {
+    right: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-10 {
+    right: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-11 {
+    right: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-lg-12 {
+    right: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-0 {
+    left: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-1 {
+    left: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-2 {
+    left: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-3 {
+    left: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-4 {
+    left: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-5 {
+    left: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-6 {
+    left: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-7 {
+    left: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-8 {
+    left: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-9 {
+    left: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-10 {
+    left: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-11 {
+    left: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-lg-12 {
+    left: 100%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-0 {
+    margin-left: 0%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-1 {
+    margin-left: 8.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-2 {
+    margin-left: 16.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-3 {
+    margin-left: 25%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-4 {
+    margin-left: 33.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-5 {
+    margin-left: 41.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-6 {
+    margin-left: 50%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-7 {
+    margin-left: 58.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-8 {
+    margin-left: 66.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-9 {
+    margin-left: 75%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-10 {
+    margin-left: 83.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-lg-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 1200px) {
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-auto {
+    flex: 0 0 auto;
+    width: auto; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .col-xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-0 {
+    right: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-1 {
+    right: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-2 {
+    right: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-3 {
+    right: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-4 {
+    right: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-5 {
+    right: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-6 {
+    right: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-7 {
+    right: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-8 {
+    right: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-9 {
+    right: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-10 {
+    right: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-11 {
+    right: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .pull-xl-12 {
+    right: 100%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-0 {
+    left: auto; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-1 {
+    left: 8.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-2 {
+    left: 16.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-3 {
+    left: 25%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-4 {
+    left: 33.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-5 {
+    left: 41.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-6 {
+    left: 50%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-7 {
+    left: 58.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-8 {
+    left: 66.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-9 {
+    left: 75%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-10 {
+    left: 83.33333%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-11 {
+    left: 91.66667%; }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .push-xl-12 {
+    left: 100%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-0 {
+    margin-left: 0%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-1 {
+    margin-left: 8.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-2 {
+    margin-left: 16.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-3 {
+    margin-left: 25%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-4 {
+    margin-left: 33.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-5 {
+    margin-left: 41.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-6 {
+    margin-left: 50%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-7 {
+    margin-left: 58.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-8 {
+    margin-left: 66.66667%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-9 {
+    margin-left: 75%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-10 {
+    margin-left: 83.33333%; }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/bower_components/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-11 {
+    margin-left: 91.66667%; } }
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 7, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* line 44, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 62, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+h1 {
+  font-size: 1.5em;
+  margin: 0.67em 0; }
+
+/* line 71, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 80, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 88, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 92, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 96, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+img {
+  border: 0; }
+
+/* line 100, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 104, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 108, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 113, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/* line 117, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 125, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 135, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button {
+  overflow: visible; }
+
+/* line 139, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 144, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 152, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 157, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 163, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+input {
+  line-height: normal; }
+
+/* line 167, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 173, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 178, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 183, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 189, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 194, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 198, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 202, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 207, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_typography.scss */
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Verdana", "Calibri", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_headings.scss */
+h1, h2, h3, h4, h5, h6 {
+  clear: both; }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+p {
+  margin-bottom: 1.5em; }
+
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+dfn, cite, em, i {
+  font-style: italic; }
+
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+blockquote {
+  margin: 0 1.5em; }
+
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+address {
+  margin: 0 0 1.5em; }
+
+/* line 17, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+pre {
+  background: #eee;
+  font-family: "Verdana", "Calibri", sans-serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+code, kbd, tt, var {
+  font-family: "Courier New", "Lucida Sans Typewriter", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem; }
+
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/typography/_copy.scss */
+big {
+  font-size: 125%; }
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit; }
+
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+body {
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */ }
+
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+blockquote, q {
+  quotes: "" "";
+  background: #dedede; }
+  /* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: ""; }
+
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em; }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+ul, ol {
+  margin: 0 0 1.5em .2em; }
+
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+ul {
+  list-style: disc; }
+
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+ol {
+  list-style: decimal; }
+
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em; }
+
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+dt {
+  font-weight: bold; }
+
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_lists.scss */
+dd {
+  margin: 0 1.5em 1.5em; }
+
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+figure {
+  margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */ }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_tables.scss */
+table {
+  margin: 0 0 1.5em;
+  width: 100%; }
+
+/* line 45, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+.site-header {
+  padding-top: 1%; }
+
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+header#masthead {
+  background-color: #efefef; }
+
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+.headercontainer img {
+  width: 100%; }
+
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/elements/_elements.scss */
+.sticky {
+  background-color: #efefef;
+  padding: 1%; }
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_buttons.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: .6em 1em .4em; }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_buttons.scss */
+  button:hover,
+  input[type="button"]:hover,
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    border-color: #ccc #bbb #aaa; }
+  /* line 18, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_buttons.scss */
+  button:active, button:focus,
+  input[type="button"]:active,
+  input[type="button"]:focus,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="submit"]:active,
+  input[type="submit"]:focus {
+    border-color: #aaa #bbb #bbb; }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_fields.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px; }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_fields.scss */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus,
+  input[type="range"]:focus,
+  input[type="date"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="time"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="color"]:focus,
+  textarea:focus {
+    color: #111; }
+
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_fields.scss */
+select {
+  border: 1px solid #ccc; }
+
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/forms/_fields.scss */
+textarea {
+  width: 100%; }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_links.scss */
+a {
+  color: grey;
+  text-decoration: none; }
+  /* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_links.scss */
+  a:visited {
+    color: grey;
+    text-decoration: none; }
+  /* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_links.scss */
+  a:hover, a:focus, a:active {
+    color: black;
+    text-decoration: none; }
+  /* line 15, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_links.scss */
+  a:focus {
+    outline: none;
+    text-decoration: none; }
+  /* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_links.scss */
+  a:hover, a:active {
+    outline: 0;
+    text-decoration: none; }
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+.main-navigation {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%; }
+  /* line 7, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+    /* line 13, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+    .main-navigation ul ul {
+      box-shadow: none;
+      float: left;
+      position: absolute;
+      top: 1.5em;
+      left: -999em;
+      z-index: 99999; }
+      /* line 21, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+      .main-navigation ul ul ul {
+        left: -999em;
+        top: 0; }
+      /* line 27, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+      .main-navigation ul ul li:hover > ul,
+      .main-navigation ul ul li.focus > ul {
+        left: 100%; }
+      /* line 33, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+      .main-navigation ul ul a {
+        width: 200px; }
+    /* line 46, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+    .main-navigation ul li:hover > ul,
+    .main-navigation ul li.focus > ul {
+      left: auto; }
+  /* line 52, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .main-navigation li {
+    float: left;
+    position: relative;
+    width: 100%; }
+  /* line 62, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .main-navigation a {
+    display: block;
+    text-decoration: none; }
+
+/* Small menu. */
+/* line 75, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block; }
+
+/* line 84, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden; }
+
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%; }
+
+/* line 94, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%; }
+
+@media screen and (min-width: 37.5em) {
+  /* line 102, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .menu-toggle {
+    display: none; }
+  /* line 105, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .main-navigation ul {
+    display: block; } }
+
+@media screen and (max-width: 37.5em) {
+  /* line 111, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  #site-header {
+    text-align: center; }
+  /* line 118, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .menu-toggle {
+    width: 100%;
+    margin-bottom: 2%; } }
+
+@media screen and (min-width: 37.5em) {
+  /* line 126, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .left-head #site-navigation ul > li {
+    width: 94%;
+    border-bottom: 1px solid #dedede; }
+  /* line 130, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .left-head #site-navigation ul > li:last-child {
+    border-bottom: 1px solid #ccc; }
+  /* line 134, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .left-head #site-navigation .children {
+    background: none; }
+  /* line 138, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .left-head #site-navigation .children li {
+    border-bottom: none; }
+  /* line 142, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .left-head #site-navigation .page_item_has_children {
+    border-bottom: none; }
+  /* line 147, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  #site-navigation .page_item_has_children .children {
+    display: block;
+    position: relative;
+    left: 10px;
+    top: 0px; }
+  /* line 154, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .top-position #site-navigation ul > li {
+    display: inline-block;
+    width: auto; }
+  /* line 159, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/navigation/_menus.scss */
+  .top-position #site-navigation .page_item_has_children .children {
+    display: none; } }
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_accessibility.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+  /* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_accessibility.scss */
+  .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/* Do not show the outline on the skip link target. */
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_accessibility.scss */
+#content[tabindex="-1"]:focus {
+  outline: 0; }
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_alignments.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+/* line 7, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_alignments.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_alignments.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_clearings.scss */
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+  table-layout: fixed; }
+
+/* line 16, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_clearings.scss */
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both; }
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/secondary/_widgets.scss */
+.widget {
+  margin: 0 0 1.5em;
+  /* Make sure select elements fit in widgets. */ }
+  /* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/secondary/_widgets.scss */
+  .widget select {
+    max-width: 100%; }
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.sticky {
+  display: block; }
+
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.hentry {
+  margin: 0 0 1.5em; }
+
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.byline,
+.updated:not(.published) {
+  display: none; }
+
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.single .byline,
+.group-blog .byline {
+  display: inline; }
+
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0; }
+
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em; }
+
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_posts-and-pages.scss */
+.entry-footer span {
+  display: block; }
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_comments.scss */
+.comment-content a {
+  word-wrap: break-word; }
+
+/* line 4, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/primary/_comments.scss */
+.bypostauthor {
+  display: block; }
+
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/site/_site.scss */
+.site-footer {
+  text-align: center; }
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_infinite-scroll.scss */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none; }
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/modules/_infinite-scroll.scss */
+.infinity-end.neverending .site-footer {
+  display: block; }
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_media.scss */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+
+/* Make sure embeds and iframes fit their containers. */
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_media.scss */
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_captions.scss */
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%; }
+  /* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_captions.scss */
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 9, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_captions.scss */
+  .wp-caption .wp-caption-text {
+    margin: 0.8075em 0; }
+
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_captions.scss */
+.wp-caption-text {
+  text-align: center; }
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+.gallery {
+  margin-bottom: 1.5em; }
+
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%; }
+  /* line 11, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-2 .gallery-item {
+    max-width: 50%; }
+  /* line 15, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-3 .gallery-item {
+    max-width: 33.33%; }
+  /* line 19, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%; }
+  /* line 23, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%; }
+  /* line 27, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66%; }
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28%; }
+  /* line 35, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%; }
+  /* line 39, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11%; }
+
+/* line 44, /Applications/XAMPP/xamppfiles/htdocs/themes/bootgit/wp-content/themes/bootstrapfastgit/app/scss/styles/media/_galleries.scss */
+.gallery-caption {
+  display: block; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiYS5jc3MiLAoJInNvdXJjZXMiOiBbCgkJImFwcC9zY3NzL2VkaXRvci1ydGwvZWRpdG9yLXJ0bC5zY3NzIiwKCQkiYXBwL3Njc3MvZWRpdG9yL2VkaXRvci5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL3N0eWxlcy5zY3NzIiwKCQkiYm93ZXJfY29tcG9uZW50cy9ib290c3RyYXAvc2Nzcy9ib290c3RyYXAtZ3JpZC5zY3NzIiwKCQkiYm93ZXJfY29tcG9uZW50cy9ib290c3RyYXAvc2Nzcy9fdmFyaWFibGVzLnNjc3MiLAoJCSJib3dlcl9jb21wb25lbnRzL2Jvb3RzdHJhcC9zY3NzL21peGlucy9fY2xlYXJmaXguc2NzcyIsCgkJImJvd2VyX2NvbXBvbmVudHMvYm9vdHN0cmFwL3Njc3MvbWl4aW5zL19icmVha3BvaW50cy5zY3NzIiwKCQkiYm93ZXJfY29tcG9uZW50cy9ib290c3RyYXAvc2Nzcy9taXhpbnMvX2dyaWQtZnJhbWV3b3JrLnNjc3MiLAoJCSJib3dlcl9jb21wb25lbnRzL2Jvb3RzdHJhcC9zY3NzL21peGlucy9fZ3JpZC5zY3NzIiwKCQkiYm93ZXJfY29tcG9uZW50cy9ib290c3RyYXAvc2Nzcy9fY3VzdG9tLnNjc3MiLAoJCSJib3dlcl9jb21wb25lbnRzL2Jvb3RzdHJhcC9zY3NzL19ncmlkLnNjc3MiLAoJCSJhcHAvc2Nzcy9fb3ZlcnJpZGVzLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvdmFyaWFibGVzLXNpdGUvX3ZhcmlhYmxlcy1zaXRlLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvdmFyaWFibGVzLXNpdGUvX2NvbG9ycy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL3ZhcmlhYmxlcy1zaXRlL190eXBvZ3JhcGh5LnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvdmFyaWFibGVzLXNpdGUvX3N0cnVjdHVyZS5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL21peGlucy9fbWl4aW5zLW1hc3Rlci5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL19ub3JtYWxpemUuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy90eXBvZ3JhcGh5L190eXBvZ3JhcGh5LnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvdHlwb2dyYXBoeS9faGVhZGluZ3Muc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy90eXBvZ3JhcGh5L19jb3B5LnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvZWxlbWVudHMvX2VsZW1lbnRzLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvZWxlbWVudHMvX2xpc3RzLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvZWxlbWVudHMvX3RhYmxlcy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL2Zvcm1zL19mb3Jtcy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL2Zvcm1zL19idXR0b25zLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvZm9ybXMvX2ZpZWxkcy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL25hdmlnYXRpb24vX25hdmlnYXRpb24uc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9uYXZpZ2F0aW9uL19saW5rcy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL25hdmlnYXRpb24vX21lbnVzLnNjc3MiLAoJCSJhcHAvc2Nzcy9zdHlsZXMvbW9kdWxlcy9fYWNjZXNzaWJpbGl0eS5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL21vZHVsZXMvX2FsaWdubWVudHMuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9tb2R1bGVzL19jbGVhcmluZ3Muc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9zaXRlL3NlY29uZGFyeS9fd2lkZ2V0cy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL3NpdGUvX3NpdGUuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9zaXRlL3ByaW1hcnkvX3Bvc3RzLWFuZC1wYWdlcy5zY3NzIiwKCQkiYXBwL3Njc3Mvc3R5bGVzL3NpdGUvcHJpbWFyeS9fY29tbWVudHMuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9tb2R1bGVzL19pbmZpbml0ZS1zY3JvbGwuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9tZWRpYS9fbWVkaWEuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9tZWRpYS9fY2FwdGlvbnMuc2NzcyIsCgkJImFwcC9zY3NzL3N0eWxlcy9tZWRpYS9fZ2FsbGVyaWVzLnNjc3MiCgldLAoJIm1hcHBpbmdzIjogIkFHVUUsYUFBYTtFQUFHLEtBQUssRUFBRSxZQUFhOzs7QUFHdEMsQUFBQSxJQUFJLENBQUM7RUFDSCxVQUFVLEVBQUUsVUFBVztFQUN2QixrQkFBa0IsRUFBRSxTQUFVLEdBQy9COzs7QUFFRCxBQUFBLENBQUM7QUFDRCxBQUFDLENBQUEsQUFBQSxRQUFRO0FBQ1QsQUFBQyxDQUFBLEFBQUEsT0FBTyxDQUFDO0VBQ1AsVUFBVSxFQUFFLE9BQVEsR0FDckI7OztBT2pCQyxBQUFBLFVBQVUsQ0FBQztFRkFYLFFBQVEsRUFBRSxRQUFTO0VBQ25CLFdBQVcsRUFBRSxJQUFLO0VBQ2xCLFlBQVksRUFBRSxJQUFLO0VBS2YsYUFBYSxFQUFHLElBQU87RUFDdkIsWUFBWSxFQUFJLElBQU8sR0VMMUI7RUpnREMsTUFBTSxFQUFMLFNBQVMsRUFBRSxLQUFLOztJSW5EbkIsQUFBQSxVQUFVLENBQUM7TUZPUCxhQUFhLEVBQUcsSUFBTztNQUN2QixZQUFZLEVBQUksSUFBTyxHRUwxQjtFSmdEQyxNQUFNLEVBQUwsU0FBUyxFQUFFLEtBQUs7O0lJbkRuQixBQUFBLFVBQVUsQ0FBQztNRk9QLGFBQWEsRUFBRyxJQUFPO01BQ3ZCLFlBQVksRUFBSSxJQUFPLEdFTDFCO0VKZ0RDLE1BQU0sRUFBTCxTQUFTLEVBQUUsS0FBSzs7SUluRG5CLEFBQUEsVUFBVSxDQUFDO01GT1AsYUFBYSxFQUFHLElBQU87TUFDdkIsWUFBWSxFQUFJLElBQU8sR0VMMUI7RUpnREMsTUFBTSxFQUFMLFNBQVMsRUFBRSxNQUFNOztJSW5EcEIsQUFBQSxVQUFVLENBQUM7TUZPUCxhQUFhLEVBQUcsSUFBTztNQUN2QixZQUFZ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YVUsRUFBTixBQWJKLE1BYVUsRUFBTixBQWJKLE1BYVUsRUFBTixBQWJKLE9BYVcsRUFBUCxBQWJKLE9BYVcsRUFBUCxBQWJKLE9BYVcsRUFJVCxBQWpCRixJQWlCTSxFQUpGLEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosVUFhYyxFQUFWLEFBYkosVUFhYyxFQUFWLEFBYkosVUFhYyxFQUlaLEFBakJGLE9BaUJTLEVBSkwsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixTQWFhLEVBQVQsQUFiSixVQWFjLEVBQVYsQUFiSixVQWFjLEVBQVYsQUFiSixVQWFjLEVBSVosQUFqQkYsT0FpQlMsRUFKTCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFNBYWEsRUFBVCxBQWJKLFVBYWMsRUFBVixBQWJKLFVBYWMsRUFBVixBQWJKLFVBYWMsRUFJWixBQWpCRixPQWlCUyxFQUpMLEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosU0FhYSxFQUFULEFBYkosVUFhYyxFQUFWLEFBYkosVUFhYyxFQUFWLEFBYkosVUFhYyxFQUlaLEFBakJGLE9BaUJTLENBakJJO0VBQ1gsUUFBUSxF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QVQ7RUFDRSxJQUFJLEVBQUUsUUFBUztFQUNmLEtBQUssRUFBRSxJQUFLLEdBQ2I7OztBQUdDLEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFFBQVU7RUFLcEIsU0FBUyxFQUFFLFFBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQVU7RUFLcEIsU0FBUyxFQUFFLEdBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQVU7RUFLcEIsU0FBUyxFQUFFLEdBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsTUFBTSxDQUFOO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQVU7RUFLcEIsU0FBUyxFQUFFLEdBQVUsR0RoQ2Q7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVU7RUFLcEIsU0FBUyxFQUFFLFNBQVUsR0RoQ2Q7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDNkJOLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLElBQVU7RUFLcEIsU0FBUyxFQUFFLElBQVUsR0RoQ2Q7OztBQUtDLEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBOEMsSUFBSSxHRHJDOUM7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsUUFBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsR0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsR0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDdUNSLEtBQUssRUFBZ0IsR0FBVSxHRHJDdEI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDdUNSLEtBQUssRUFBZ0IsU0FBVSxHRHJDdEI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDdUNSLEtBQUssRUFBZ0IsSUFBVSxHRHJDdEI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBOEMsSUFBSSxHRGpDN0M7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsUUFBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsR0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsR0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsT0FBTyxDQUFQO0VDbUNSLElBQUksRUFBZ0IsR0FBVSxHRGpDckI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDbUNSLElBQUksRUFBZ0IsU0FBVSxHRGpDckI7OztBQUZELEFBQUEsUUFBUSxDQUFSO0VDbUNSLElBQUksRUFBZ0IsSUFBVSxHRGpDckI7OztBQU9ELEFBQUEsU0FBUyxDQUFUO0VDc0JSLFdBQVcsRUFBRSxRQUFVLEdEcEJkOzs7QUFGRCxBQUFBLFNBQVMsQ0FBVDtFQ3NCUixXQUFXLEVBQUUsU0FBVSxHRHBCZDs7O0FBRkQsQUFBQSxTQUFTLENBQVQ7RUNzQlIsV0FBVyxFQUFFLEdBQVUsR0RwQmQ7OztBQUZELEFBQUEsU0FBUyxDQUFUO0VDc0JSLFdBQVcsRUFBRSxTQUFVLEdEcEJkOzs7QUFGRCxBQUFBLFNBQVMsQ0FBVDtFQ3NCUixXQUFXLEVBQUUsU0FBVSxHRHBCZDs7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R0FDaEI7O0FBRUQ7O2dFQUVnRTs7QUNsQmhFLEFBQUEsV0FBVyxDQUFDO0VBQ1gsYUFBYSxFQUFFLEtBQU07RUFDckIsU0FBUyxFQUFFLElBQUssR0FTaEI7O0VBWEQsQUFJdUIsV0FKWixDQUlWLEdBQUcsQ0FBQSxBQUFBLEtBQUMsRUFBTyxXQUFXLEFBQWxCLEVBQW9CO0l2Qkl4QixPQUFPLEVBQUUsS0FBTTtJQUNmLFdBQVcsRUFBRSxJQUFLO0lBQ2xCLFlBQVksRUFBRSxJQUFLLEd1QkpsQjs7RUFORixBQVFDLFdBUlUsQ0FRVixnQkFBZ0IsQ0FBQztJQUNoQixNQUFNLEVBQUUsVUFBVyxHQUNuQjs7O0FBR0YsQUFBQSxnQkFBZ0IsQ0FBQztFQUNoQixVQUFVLEVBQUUsTUFBTyxHQUNuQjs7QURNRDs7Z0VBRWdFOztBRXZCaEUsQUFBQSxRQUFRLENBQUM7RUFDUixhQUFhLEVBQUUsS0FBTSxHQUNyQjs7O0FBRUQsQUFBQSxhQUFhLENBQUM7RUFDYixPQUFPLEVBQUUsWUFBYTtFQUN0QixVQUFVLEVBQUUsTUFBTztFQUNuQixjQUFjLEVBQUUsR0FBSTtFQUNwQixLQUFLLEVBQUUsSUFBSyxHQWlDWjs7RUEvQkEsQUFORCxrQkFNbUIsQ0FObkIsYUFBYSxDQU1TO0lBQ3BCLFNBQVMsRUFBRSxHQUFJLEdBQ2Y7O0VBRUQsQUFWRCxrQkFVbUIsQ0FWbkIsYUFBYSxDQVVTO0lBQ3BCLFNBQVMsRUFBRSxNQUFPLEdBQ2xCOztFQUVELEFBZEQsa0JBY21CLENBZG5CLGFBQWEsQ0FjUztJQUNwQixTQUFTLEVBQUUsR0FBSSxHQUNmOztFQUVELEFBbEJELGtCQWtCbUIsQ0FsQm5CLGFBQWEsQ0FrQlM7SUFDcEIsU0FBUyxFQUFFLEdBQUksR0FDZjs7RUFFRCxBQXRCRCxrQkFzQm1CLENBdEJuQixhQUFhLENBc0JTO0lBQ3BCLFNBQVMsRUFBRSxNQUFPLEdBQ2xCOztFQUVELEFBMUJELGtCQTBCbUIsQ0ExQm5CLGFBQWEsQ0EwQlM7SUFDcEIsU0FBUyxFQUFFLE1BQU8sR0FDbEI7O0VBRUQsQUE5QkQsa0JBOEJtQixDQTlCbkIsYUFBYSxDQThCUztJQUNwQixTQUFTLEVBQUUsS0FBTSxHQUNqQjs7RUFFRCxBQWxDRCxrQkFrQ21CLENBbENuQixhQUFhLENBa0NTO0lBQ3BCLFNBQVMsRUFBRSxNQUFPLEdBQ2xCOzs7QUFHRixBQUFBLGdCQUFnQixDQUFDO0VBQ2hCLE9BQU8sRUFBRSxLQUFNLEdBQ2YiLAoJIm5hbWVzIjogW10KfQ== */
+
+/*# sourceMappingURL=editor-rtl.css.map*/
