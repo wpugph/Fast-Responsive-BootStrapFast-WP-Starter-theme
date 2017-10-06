@@ -94,7 +94,7 @@ if ( ! function_exists( 'bootstrapfast_theme_customize_register' ) ) {
 			)
 		);
 	}
-}
+}// End if().
 
 add_action( 'customize_register', 'bootstrapfast_theme_customize_register' );
 
@@ -156,18 +156,18 @@ function bootstrapfast_main_sidebar_placement() {
  * Sanitize bootstrap container type.
  */
 function bootstrapfast_container_type_sanitize( $containertype ) {
-    if ( ! in_array( $containertype, array( 'container-fluid', 'container' ) ) ) {
-        $containertype = 'container-fluid';
-    }
-    return $containertype;
+	if ( ! in_array( $containertype, array( 'container-fluid', 'container' ) ) ) {
+		$containertype = 'container-fluid';
+	}
+	return $containertype;
 }
 
 /**
  * Sanitize bootstrap header position.
  */
 function bootstrapfast_mainheader_position_sanitize( $headerposition ) {
-    if ( ! in_array( $headerposition, array( 'left', 'right', 'top' ) ) ) {
-        $headerposition = 'left';
-    }
-    return $headerposition;
+	if ( ! in_array( $headerposition, array( 'left', 'right', 'top' ) ) ) {
+		$headerposition = 'left';
+	}
+	return $headerposition;
 }

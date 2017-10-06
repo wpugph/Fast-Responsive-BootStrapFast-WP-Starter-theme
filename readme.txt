@@ -4,10 +4,10 @@ Contributors: carl-alberto
 Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, flexible-header, custom-logo, featured-image-header, featured-images, sticky-post, theme-options, blog, news
 
 Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 1.0.2
+Tested up to: 4.8
+Stable tag: 1.0.3
 License: GNU General Public License v2 or later
-License URI: LICENSE
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Fast lightweight theme based from Underscores utilizing Bootstrap Responsive grid.
 
@@ -53,6 +53,11 @@ It should be but not fully tested, use at your own risk.
 * Removed language folder because it is not yet utilized
 * correct sanitation for select
 * corrected multiple use of after_setup_theme
+
+= 1.0.3 - Jul 9 2017 =
+* Tested compatible to WP 4.8
+* Added license URI
+* Organized GitHub to include Travis checks
 
 == Copyright ==
 
