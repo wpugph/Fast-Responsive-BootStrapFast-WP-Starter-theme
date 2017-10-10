@@ -3,5 +3,5 @@
 .gitignore export-ignore
 .DS_Store export-ignore
 .travis.yml export-ignore
-.jshinignore export-ignore
+.jshintignore export-ignore
 .jscsrc export-ignore
