@@ -22,7 +22,7 @@
 			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( bootstrapfast_main_header_style() ) ?>" role="banner">
 				<div class="site-branding"><?php
 				if ( bootstrapfast_get_the_logo_url() ) { ?>
-					<div id="site-header">
+				    <div id="site-header">
 						<?php the_custom_logo(); ?>
 					</div> <?php
 				} else {
@@ -41,10 +41,7 @@
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bootstrapfast' ); ?></button>
-					<?php wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id' => 'primary-menu',
-					) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation --> <?php
 				if ( bootstrapfast_main_sidebar_placement() ) {
 						get_sidebar();

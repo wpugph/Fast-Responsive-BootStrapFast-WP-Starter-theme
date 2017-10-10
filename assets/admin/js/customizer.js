@@ -4,8 +4,6 @@
  * Theme Customizer enhancements for a better user experience.
  *
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
- *
- * @package BootstrapFast
  */
 
 ( function( $ ) {
@@ -44,4 +42,4 @@
 } )( jQuery );
 
 
-// # sourceMappingURL=customizer.js.map
+//# sourceMappingURL=customizer.js.map

@@ -1,9 +1,8 @@
 /**
- * @package BootstrapFast
+ * File navigation.js.
  *
  * Handles toggling the navigation menu for small screens and enables TAB key
  * navigation support for dropdown menus.
- *
  */
 ( function() {
 	var container, button, menu, links, i, len;
@@ -86,39 +85,32 @@
 				var menuItem = this.parentNode, i;
 
 				if ( ! menuItem.classList.contains( 'focus' ) ) {
-
 					e.preventDefault();
-					var ctr2 = menuItem.parentNode.children.length;
-
-					for ( i = 0; i < ctr2; ++i ) {
+					for ( i = 0; i < menuItem.parentNode.children.length; ++i ) {
 						if ( menuItem === menuItem.parentNode.children[i] ) {
 							continue;
 						}
 						menuItem.parentNode.children[i].classList.remove( 'focus' );
 					}
-
 					menuItem.classList.add( 'focus' );
-
 				} else {
-
 					menuItem.classList.remove( 'focus' );
-
 				}
 			};
-			var parentctr1 = parentLink.length;
 
-			for ( i = 0; i < parentctr1; ++i ) {
-
+			for ( i = 0; i < parentLink.length; ++i ) {
 				parentLink[i].addEventListener( 'touchstart', touchStartFn, false );
-
 			}
 		}
 	}( container ) );
 } )();
 
 /**
+ * File skip-link-focus-fix.js.
+ *
  * Helps with accessibility for keyboard only users.
  *
+ * Learn more: https://git.io/vWdr2
  */
 (function() {
 	var isIe = /(trident|msie)/i.test( navigator.userAgent );

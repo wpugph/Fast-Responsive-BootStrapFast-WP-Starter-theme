@@ -4,10 +4,10 @@ Contributors: carl-alberto
 Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, flexible-header, custom-logo, featured-image-header, featured-images, sticky-post, theme-options, blog, news
 
 Requires at least: 4.0
-Tested up to: 4.8
+Tested up to: 4.8.2
 Stable tag: 1.0.3
 License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License URI: LICENSE
 
 Fast lightweight theme based from Underscores utilizing Bootstrap Responsive grid.
 
@@ -54,15 +54,14 @@ It should be but not fully tested, use at your own risk.
 * correct sanitation for select
 * corrected multiple use of after_setup_theme
 
-= 1.0.3 - Jul 9 2017 =
-* Tested compatible to WP 4.8
-* Added license URI
-* Organized GitHub to include Travis checks
+= 1.0.3 - Oct 8 2017 =
+* Removed navigation.js and consolidated all js in themes.js file
+* Created a minified version of theme css & JS
 
 == Copyright ==
 
-BootstrapFast WordPress Theme, Copyright 2017 Carl Alberto
-BootstrapFast is distributed under the terms of the GNU GPL
+BootStrapFast WordPress Theme, Copyright 2017 Carl Alberto
+BootStrapFast is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

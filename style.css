@@ -4,7 +4,7 @@ Theme URI: https://carl.alber2.com/theme/bootstrapfast
 Author: Carl Alberto
 Author URI: https://carl.alber2.com
 Description: Fast lightweight theme based from Underscores utilizing Bootstrap Responsive grid
-Version: 1.0.3
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bootstrapfast
@@ -35,11 +35,6 @@ BootstrapFast WordPress Theme bundles the following third-party resources:
 
 * Bootstrap 4 for the responsive grid system - https://github.com/twbs/bootstrap/, (c) 2011-2016 Twitter, Inc. [MIT] https://github.com/twbs/bootstrap/blob/master/LICENSE
 
-Only used to identify theme.
+Only used to identify theme. Edit sass/styles.css
 
-For styles:
-Edit app folder for uncompiled assets.
-EDit assets folder for compiled items.
-
-Recommended to use a child theme for editing or customizing.
 */
