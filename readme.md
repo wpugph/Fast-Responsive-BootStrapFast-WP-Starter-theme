@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme)
+Master: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
+
+Develop: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=develop)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
 
 
 # Release branch
