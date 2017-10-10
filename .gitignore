@@ -1,0 +1,10 @@
+.gitignore
+nbproject/
+bin/
+.sass-cache/
+bower_components/
+node_modules/
+public/
+*.log
+.ftpconfig
+.ftpignore
