@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-Bootstrap-WP-Starter-theme)
+Master: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
+
+Develop: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=develop)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
 
 
 # Release branch
@@ -28,3 +30,10 @@ Setup brunch
 # Theme Usage
 
 # Customizing further using a child theme
+
+# Theme WordPress.org trac
+https://themes.trac.wordpress.org/ticket/40027
+https://themes.trac.wordpress.org/ticket/42772
+
+# Exporting theme for utilization
+git archive -o bootstrapfast.zip HEAD
