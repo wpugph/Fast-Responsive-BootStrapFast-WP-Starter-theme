@@ -32,8 +32,12 @@ Setup brunch
 # Customizing further using a child theme
 
 # Theme WordPress.org trac
+1.0.1
 https://themes.trac.wordpress.org/ticket/40027
+1.0.2
 https://themes.trac.wordpress.org/ticket/42772
+1.0.3
+https://themes.trac.wordpress.org/ticket/47164
 
 # Exporting theme for utilization
 git archive -o bootstrapfast.zip HEAD
