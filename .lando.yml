@@ -1,0 +1,4 @@
+name: bootstrap-2
+recipe: wordpress
+config:
+  webroot: .
