@@ -54,7 +54,7 @@ var project = manifest.getProjectGlobs();
 var enabled = {
 
   // Enable static asset revisioning when `--production`
-  // rev: argv.production,
+  //rev: argv.production,
 
   // Disable source maps when `--production`
   maps: ! argv.production,

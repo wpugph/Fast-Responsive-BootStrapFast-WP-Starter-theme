@@ -1,0 +1,171 @@
+
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: none;
+	float: left;
+	position: absolute;
+	top: 1.5em;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+@media screen and (min-width: 37.5em) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+
+	#site-header {
+		text-align: center;
+	}
+
+	.menu-toggle {
+		width: 100%;
+		margin-bottom: 2%;
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+
+	.left-head #site-navigation ul > li {
+		width: 94%;
+		border-bottom: 1px solid #dedede;
+	}
+
+	.left-head #site-navigation ul > li:last-child {
+		border-bottom: 1px solid #ccc;
+	}
+
+	.left-head #site-navigation .children {
+		background: none;
+	}
+
+	.left-head #site-navigation .children li {
+		border-bottom: none;
+	}
+
+	.left-head #site-navigation .page_item_has_children {
+		border-bottom: none;
+	}
+
+	#site-navigation .page_item_has_children .children {
+		display: block;
+		position: relative;
+		left: 10px;
+		top: 0px;
+	}
+
+	.top-position #site-navigation ul > li {
+		display: inline-block;
+		width: auto;
+	}
+
+	.top-position #site-navigation .page_item_has_children .children {
+		display: none;
+	}
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
