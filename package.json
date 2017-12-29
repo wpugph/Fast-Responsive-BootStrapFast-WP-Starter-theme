@@ -1,20 +1,20 @@
 {
-  "name": "sage",
-  "version": "8.5.2",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "name": "BootStrapFastWPTheme",
+  "version": "1.0.5",
+  "author": "Carl Alberto <carl@alber2.com>",
+  "homepage": "https://carl.alber2.com/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git@github.com:wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "https://github.com/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme/issues"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "type": "GPL2",
+      "url": "https://opensource.org/licenses/GPL-2.0"
     }
   ],
   "scripts": {

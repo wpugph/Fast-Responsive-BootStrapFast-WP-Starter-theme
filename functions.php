@@ -151,4 +151,4 @@ require get_template_directory() . '/inc/class-jsonmanifest.php';
 /**
  * Load VIP helper.
  */
-// TODO: Will add VIP later require get_template_directory() . '/inc/vip-helper.php';.
+require get_template_directory() . '/inc/vip-helper.php';

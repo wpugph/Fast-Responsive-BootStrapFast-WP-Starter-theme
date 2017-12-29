@@ -84,3 +84,5 @@ BootstrapFast WordPress Theme bundles the following third-party resources:
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
 
 * Bootstrap 4 for the responsive grid system - https://github.com/twbs/bootstrap/, (c) 2011-2016 Twitter, Inc. [MIT] https://github.com/twbs/bootstrap/blob/master/LICENSE
+
+* Roots Sage Theme for gulp task runners - https://roots.io/sage/, (C) Ben Word and Scott Walkinshaw, [MIT] (https://github.com/roots/sage/blob/master/LICENSE.md)

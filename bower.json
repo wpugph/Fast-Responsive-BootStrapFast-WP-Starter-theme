@@ -1,10 +1,10 @@
 {
-  "name": "sage",
-  "homepage": "https://roots.io/sage/",
+  "name": "BootStrapFastWPTheme",
+  "homepage": "https://carl.alber2.com/",
   "authors": [
-    "Ben Word <ben@benword.com>"
+    "Carl Alberto <carl@alber2.com>"
   ],
-  "license": "MIT",
+  "license": "GPL2",
   "private": true,
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-beta",
