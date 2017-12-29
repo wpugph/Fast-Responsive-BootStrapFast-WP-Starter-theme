@@ -4,7 +4,7 @@ Theme URI: https://carl.alber2.com/theme/bootstrapfast
 Author: Carl Alberto
 Author URI: https://carl.alber2.com
 Description: Fast lightweight theme based from Underscores utilizing Bootstrap Responsive grid
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bootstrapfast
@@ -26,7 +26,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see < http://www.gnu.org/licenses/ >.
 
-BootstrapFast WordPress Theme is derived from Underscores WordPress Starter Theme, Copyright 2013 Automattic, Inc.
+BBootstrapFast WordPress Theme is derived from Underscores WordPress Starter Theme, Copyright 2013 Automattic, Inc.
 Underscores WordPress Theme is distributed under the terms of the GNU GPL. http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 
 BootstrapFast WordPress Theme bundles the following third-party resources:
@@ -35,6 +35,8 @@ BootstrapFast WordPress Theme bundles the following third-party resources:
 
 * Bootstrap 4 for the responsive grid system - https://github.com/twbs/bootstrap/, (c) 2011-2016 Twitter, Inc. [MIT] https://github.com/twbs/bootstrap/blob/master/LICENSE
 
-Only used to identify theme. Edit sass/styles.css
+* Roots Sage Theme for gulp task runners - https://roots.io/sage/, (C) Ben Word and Scott Walkinshaw, [MIT] (https://github.com/roots/sage/blob/master/LICENSE.md)
+
+Only used to identify theme. Edit assets/css/themestyle.min.css or better yet a child theme.
 
 */
