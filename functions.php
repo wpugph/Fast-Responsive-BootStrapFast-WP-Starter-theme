@@ -142,3 +142,13 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load Customized theme funcions.
  */
 require get_template_directory() . '/inc/custom-functions.php';
+
+/**
+ * Load Customized theme funcions.
+ */
+require get_template_directory() . '/inc/class-jsonmanifest.php';
+
+/**
+ * Load VIP helper.
+ */
+// TODO: Will add VIP later require get_template_directory() . '/inc/vip-helper.php';.

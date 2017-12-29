@@ -43,9 +43,9 @@ add_action( 'wp_enqueue_scripts', 'bootstrapfast_asset_head' );
 function bootstrapfast_assets() {
 		$the_theme = wp_get_theme();
 
-		wp_enqueue_style( 'bootstrapfast-style', bootstrapfast_asset_dir() . '/css/themestyle.min.css', array(), bootstrapfast_stylesuffix() );
+		wp_enqueue_style( 'bootstrapfast-style', asset_path( '/css/themestyle.min.css' ), false, null );
 
-		wp_enqueue_script( 'bootstrapfastjs', bootstrapfast_asset_dir() . '/js/themes.min.js', array(), bootstrapfast_stylesuffix(), true );
+		wp_enqueue_script( 'bootstrapfastjs', asset_path( '/js/themes.min.js' ), array(), bootstrapfast_stylesuffix(), true );
 
 }
 add_action( 'wp_enqueue_scripts', 'bootstrapfast_assets' );
@@ -56,4 +56,29 @@ add_action( 'wp_enqueue_scripts', 'bootstrapfast_assets' );
  */
 function bootstrapfast_body_begin() {
 	do_action( 'bootstrapfast_body_begin' );
+}
+
+/**
+ * Updated assetloader.
+ *
+ * @param filename $filename text Gets the filename.
+ *
+ * @return filename Returns the filename of a compiled asset is present otherwise it will return the normal filename for cache busting purposes.
+ */
+function asset_path( $filename ) {
+	$dist_path = bootstrapfast_asset_dir();
+	$directory = dirname( $filename ) . '/';
+	$file      = basename( $filename );
+	static $manifest;
+
+	if ( empty( $manifest ) ) {
+		$manifest_path = bootstrapfast_asset_dir() . '/assets.json';
+		$manifest      = new JsonManifest( $manifest_path );
+	}
+
+	if ( array_key_exists( $file, $manifest->get() ) ) {
+		return $dist_path . $directory . $manifest->get()[ $file ];
+	} else {
+		return $dist_path . $directory . $file;
+	}
 }
