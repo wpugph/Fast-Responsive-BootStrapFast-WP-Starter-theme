@@ -51,6 +51,15 @@ function bootstrapfast_assets() {
 add_action( 'wp_enqueue_scripts', 'bootstrapfast_assets' );
 
 /**
+ * Registers an editor stylesheet for the theme.
+ */
+function wpdocs_theme_add_editor_styles() {
+	add_editor_style( asset_path( '/css/editor-style.min.css' ) );
+}
+add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
+
+
+/**
  * Action to insert hook before the body.
  * You still need to insert this hook inside your body.
  */
