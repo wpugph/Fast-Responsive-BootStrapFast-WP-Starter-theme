@@ -19,24 +19,30 @@
 <body <?php body_class(); ?>>
 	<div class="<?php echo esc_attr( bootstrapfast_container_type() ); ?>">
 		<div class="row">
-			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( bootstrapfast_main_header_style() ) ?>" role="banner">
-				<div class="site-branding"><?php
-				if ( bootstrapfast_get_the_logo_url() ) { ?>
-				    <div id="site-header">
-						<?php the_custom_logo(); ?>
-					</div> <?php
-				} else {
-					if ( is_front_page() && is_home() ) { ?>
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1><?php
-					} else { ?>
-						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p> <?php
-					}
+			<header id="masthead" class="site-header col-xs-12 <?php echo esc_attr( bootstrapfast_main_header_style() ); ?>" role="banner">
+				<div class="site-branding">
+					<?php
+					if ( bootstrapfast_get_the_logo_url() ) {
+						?>
+						<div id="site-header">
+							<?php the_custom_logo(); ?>
+						</div>
+						<?php
+					} else {
+						if ( is_front_page() && is_home() ) {
+							?>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1><?php
+						} else { ?>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p> <?php
+						}
 
-					$description = get_bloginfo( 'description', 'display' );
-					if ( $description || is_customize_preview() ) { ?>
-						<p class="site-description"><?php echo esc_attr( $description ); ?></p> <?php
+						$description = get_bloginfo( 'description', 'display' );
+						if ( $description || is_customize_preview() ) { ?>
+							<p class="site-description"><?php echo esc_attr( $description ); ?></p>
+							<?php
+						}
 					}
-				} ?>
+					?>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">

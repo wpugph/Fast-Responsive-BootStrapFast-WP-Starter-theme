@@ -139,12 +139,12 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 /**
- * Load Customized theme funcions.
+ * Load Customized theme functions.
  */
 require get_template_directory() . '/inc/custom-functions.php';
 
 /**
- * Load Customized theme funcions.
+ * Load Customized theme functions.
  */
 require get_template_directory() . '/inc/class-jsonmanifest.php';
 
@@ -152,3 +152,8 @@ require get_template_directory() . '/inc/class-jsonmanifest.php';
  * Load VIP helper.
  */
 require get_template_directory() . '/inc/vip-helper.php';
+
+/**
+ * Load icon functions from svg.
+ */
+require get_template_directory() . '/inc/icon-functions.php';
