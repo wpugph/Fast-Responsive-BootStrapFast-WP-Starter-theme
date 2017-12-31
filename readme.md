@@ -1,8 +1,6 @@
-Master: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
+Travis: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=master)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
 
-Develop: [![Build Status](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme.svg?branch=develop)](https://travis-ci.org/wpugph/Fast-Responsive-BootStrapFast-WP-Starter-theme)
-
-Can be used a standalone theme but this is has a very basic structure and functionality. Best used with a child theme, please see this repo forn instructions: https://github.com/wpugph/BootStrapFast-WordPress-Child-Theme-basic-structure
+Can be used a standalone theme but this is has a very basic structure and functionality. Best used with a child theme, please see this repo for instructions: https://github.com/wpugph/BootStrapFast-WordPress-Child-Theme-basic-structure
 
 Tools included in this repo is used to revise and update the theme.
 
@@ -13,7 +11,7 @@ Tools included in this repo is used to revise and update the theme.
 3) Run npm install -g npm@latest
 4) Run npm install -g gulp bower
 5) Run npm install
-6) Run bower isntall
+6) Run bower install
 
 # Release branch
 - Only the released files used for template file for Theme submission
